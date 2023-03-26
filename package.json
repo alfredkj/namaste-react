@@ -4,6 +4,8 @@
   "description": "Learning React from Namaste React web series",
   "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.htnml",
     "test": "jest"
   },
   "repository": {
