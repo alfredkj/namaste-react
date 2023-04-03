@@ -27,6 +27,7 @@ const child2 = React.createElement("div", { id: "child2" }, heading2);
 const child3 = React.createElement("div", { id: "child3" }, heading3);
 const child4 = React.createElement("div", { id: "child4" }, heading4);
 const parent = React.createElement("div", { id: "parent" }, [child1,child2,child3,child4]);
-console.log(parent);
+//console.log(parent);
+const h1Heading = <h1> This is a valid jsx tag</h1>;
 const branch = ReactDom.createRoot(document.getElementById("branch"));
 branch.render(parent);
